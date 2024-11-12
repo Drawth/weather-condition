@@ -72,6 +72,7 @@ const setQuery = (e) => {
       alert("Lütfen  bir şehir ismi giriniz.");
     } else {
       getLatLon(e.target.value);
+      e.target.value = "";
     }
   }
 };
